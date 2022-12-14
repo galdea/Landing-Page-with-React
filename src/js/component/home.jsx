@@ -1,7 +1,6 @@
 import React from "react";
 import NavbarExample from "./navbar";
 import CardGrid from "./cardgrid";
-// import JumbotronExample from "./jumbotron";
 import Footer from "./footer";
 
 const Home = () => {
