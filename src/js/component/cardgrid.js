@@ -29,7 +29,7 @@ const cardData = [
 
 function CardGrid() {
   return (
-    <Row xs={2} md={4} className="g-4">
+    <Row xs={1} md={4} className="g-4">
       {cardData.map((card, idx) => (
         <Col key={idx}>
           <Card>

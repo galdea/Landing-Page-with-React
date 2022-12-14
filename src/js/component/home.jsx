@@ -2,6 +2,7 @@ import React from "react";
 import NavbarExample from "./navbar";
 import CardGrid from "./cardgrid";
 import Footer from "./footer";
+import Jumbo from "./jumbo";
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
       <div className="text-center">
         <NavbarExample />
       </div>
-      <div className="mx-5 my-4">
+      <div className="container my-4">
+        <Jumbo />
         <CardGrid />
       </div>
       <div>
